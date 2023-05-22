@@ -27,7 +27,7 @@ function Stories() {
 
   return (
     <div className="Stories" style={storiesContainerStyle}>
-      <h1 style={headerStyle}>Lista de Hisrorias de Marvel</h1>
+      <h1 style={headerStyle}>Lista de Historias de Marvel</h1>
       <div className="stories-grid" style={storiesGridStyle}>
         {stories.map((story) => (
           <div className="story-card" key={story.id} style={storyCardStyle}>
